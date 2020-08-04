@@ -1,0 +1,21 @@
+body {
+  background-color: lightpink;
+}
+.container {
+  background-color: rgb(253, 116, 185);
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 50%;
+  height: 50%;
+}
+
+.responsive {
+  height: auto;
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+  max-width: 100%;
+}
