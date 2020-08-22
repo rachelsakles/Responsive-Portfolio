@@ -6,7 +6,8 @@ body {
   margin-left: 20px;
   margin-top: 40px;
   width: 50%;
-  height: 50%;
+  height: 50%; 
+  font: 1rem;
 }
 
 .responsive {
@@ -21,10 +22,20 @@ p {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+#cats, #cat-fact {
+  font-family: Arial, sans-serif;
+  margin-left: 70px;
+} 
+
+#show-fact { 
+  text-align: center; 
+  margin-left: 70px;
+}
