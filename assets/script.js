@@ -5,29 +5,30 @@ $("#submit-button").on("click", function (e) {
     alert("Thank you for submitting your contact info")
 
 })
-// Variables for cat facts
-var factPlaceholder = document.getElementById("cat-fact");
+// Variables for Rachel facts
+var factPlaceholder = document.getElementById("Rachel-fact");
 var showFact = document.getElementById("show-fact");
 
 //Facts from this website: https://www.purina.co.uk/cats/behaviour-and-training/understanding-cat-behaviour/fun-facts-about-cats// 
 
 // Create a list of random cat facts in an array
 
-var CatFacts = ["The oldest cat in the world was 38 years old!",
-    "Cats share 95.6% of their DNA with tigers.",
-    "Cats are asleep for 70% of their lives.",
-    "A house cat can reach speeds of up to 30mph",
-    "In 1963 a cat went to space."
+var RachelFacts = ["I am the oldest of three sisters",
+    "I have two cats, and a mini shetland sheepdog.",
+    "My pets names are Calypso, Pandora, and Leonidas.",
+    "I have been working out consistently since I was 14 years old.",
+    "I wish I found out how interested I am in coding sooner.", 
+    "My grandma is from Athens."
 ]
 
 var factNumber;
 
 // Create a function to return the cat facts
 function randomFact() {
-    return CatFacts[factNumber];
+    return RachelFacts[factNumber];
 }
 // When show fact is clicked populate page with random cat facts
 showFact.addEventListener('click', function () {
-    factNumber = Math.floor(Math.random() * 5);
+    factNumber = Math.floor(Math.random() * 6);
     factPlaceholder.textContent = randomFact();
 });

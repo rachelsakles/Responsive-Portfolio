@@ -18,7 +18,10 @@ body {
 
 p {
   margin-left: 20px;
-  max-width: 100%;
+  font-size: 22px;
+  font: 1rem; 
+  
+  
 }
 
 .footer {
@@ -38,4 +41,26 @@ p {
 #show-fact { 
   text-align: center; 
   margin-left: 70px;
-}
+} 
+
+.container img { 
+  height: auto;
+  
+  
+} 
+
+.rachel { 
+  float: left;
+  margin: 2px; 
+ 
+  
+} 
+
+.links { 
+  font-size: 20px; 
+} 
+ 
+.img-thumbnail { 
+  
+  
+} 
